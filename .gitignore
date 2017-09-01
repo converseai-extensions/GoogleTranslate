@@ -61,3 +61,4 @@ typings/
 *.tar.*
 app-token.js
 plugin.js
+credentials.json

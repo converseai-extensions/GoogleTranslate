@@ -1,0 +1,34 @@
+{
+  "name": "google_translate",
+  "displayName": "Google Translate",
+  "description": "A simple example of how to set up Google Translate via google-cloud for Converse AI.",
+  "category": "",
+  "documentLink": "",
+  "providerData": [],
+  "module": [
+    {
+      "id": "translate",
+      "name": "Translate",
+      "description": "Translate the given text to the given language via Google Translate.",
+      "hasReturn": true,
+      "param": [
+        {
+          "param": "text",
+          "displayName": "Text",
+          "description": "The text to translate",
+          "type": "TEXT",
+          "maxItems": null,
+          "minItems": null
+        },
+        {
+          "param": "to",
+          "displayName": "To",
+          "description": "Language to translate to.",
+          "type": "STRING",
+          "maxItems": null,
+          "minItems": null
+        }
+      ]
+    }
+  ]
+}

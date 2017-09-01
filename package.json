@@ -1,0 +1,20 @@
+{
+  "name": "google_translate",
+  "description": "A simple example of how to set up Google Translate via google-cloud for Converse AI.",
+  "main": "plugin.js",
+  "author": "graeme+admin@converse.ai",
+  "scripts": {
+    "test": "mocha test/plugin-test.js test/*"
+  },
+  "dependencies": {
+    "@converseai/plugins-sdk": "latest",
+    "@google-cloud/translate": "^1.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "latest",
+    "chai": "latest",
+    "express": "latest",
+    "mocha": "latest",
+    "supertest": "latest"
+  }
+}
