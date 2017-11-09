@@ -12,6 +12,10 @@ const request     = require('supertest');
 const expect      = require('chai').expect;
 const server      = require('./lib/express');
 
+after(function (done) {
+  server.close(done);
+});
+
 describe('Google Translate', function () {
 
   it('Responds to /', function(done) {
@@ -62,4 +66,5 @@ describe('Google Translate', function () {
         done();
       });
   });
+
 });
